@@ -1,20 +1,26 @@
 /* rgb(246, 137, 51)  */
 /* f68933  */
-
-
 * {
   margin: 0;
   padding: 0;
 }
+
 #page-wraper {
-  list-style: none;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: large;
+  background: rgba(243, 154, 21, 0.2);
 }
+#header {
+  background: hsl(0, 0%, 50%);
+  box-shadow: 0px 0px 5px hsl(0, 0%, 10%);
+  border-radius: 2px;
+  width: 100vw;
+  height: 10%;
+}
+
 #nav-bar {
-}
-/* inline navbar */
-nav ul li {
-  display: inline-block;
-  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  font-size: 1rem;
 }
