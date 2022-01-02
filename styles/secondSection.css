@@ -1,8 +1,12 @@
 /* ****** 2ND SECTION H2 + FORM ******  */
+
+/* >>>>> center + position .subscrib <<<<<  */
 .subscrib {
   margin: 100px 0;
   text-align: center;
 }
+
+/* >>>>> format + color inputs <<<<<  */
 #email,
 #submit {
   border-radius: 2px;
@@ -11,7 +15,8 @@
   box-shadow: 0px 0px 5px rgb(26, 26, 26);
   margin-right: 20px;
 }
-/* >>>>> button format + color <<<<<  */
+
+/* >>>>> submitInput format + color <<<<<  */
 #submit {
   background-color: hsl(0, 0%, 50%);
   color: white;

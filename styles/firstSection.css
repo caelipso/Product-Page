@@ -5,9 +5,10 @@
   border-radius: 2px;
   width: 100%;
 }
+
+/* >>>>> navbar properties + sizing  <<<<<  */
 #nav-bar,
 #item {
-  /* navbar properties + sizing  */
   display: flex;
   justify-content: flex-end;
   align-items: center;

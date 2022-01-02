@@ -8,4 +8,6 @@
 #page-wraper {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   background: rgba(243, 154, 21, 0.2);
+  height: 500vh;
+  min-width: 800px;
 }

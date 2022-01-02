@@ -1,0 +1,29 @@
+/* MEDIA */
+.plato-video {
+  margin-top: 70px;
+  width: 80%;
+}
+
+/* 3 TIERS */
+.grid-titles {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.top-tiers {
+  text-align: center;
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.tier {
+  border: black solid 5px;
+  border-radius: 10px;
+}
+
+div div ul li {
+  list-style: none;
+  padding: 10px 2px;
+}
+
+/* footer  */

@@ -1,1 +1,27 @@
 /* ****** 3RD SECTION FEATURES ****** */
+
+/* >>>>> container format + color  <<<<<  */
+.container {
+  margin: 0px 300px;
+}
+.summary-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* >>>>> features formating + positioning  <<<<<  */
+.grid {
+  display: grid;
+  grid-template-columns: 60px 800px;
+  grid-template-rows: repeat(5, 50px, 1fr);
+  grid-gap: 20px;
+  text-align: justify;
+  font-size: large;
+  line-height: 25px;
+  align-items: center;
+}
+
+/* >>>>> img formatting  <<<<<  */
+div img {
+  width: 50px;
+}
