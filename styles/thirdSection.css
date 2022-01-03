@@ -20,7 +20,11 @@
   line-height: 25px;
   align-items: center;
 }
-
+@media (min-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 /* >>>>> img formatting  <<<<<  */
 div img {
   width: 50px;
