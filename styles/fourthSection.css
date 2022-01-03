@@ -25,5 +25,40 @@ div div ul li {
   list-style: none;
   padding: 10px 2px;
 }
-
+.more-info {
+  margin-top: 50px;
+  font-size: 2rem;
+}
 /* footer  */
+.footer {
+  margin-top: 100px;
+  background: hsla(0, 0%, 34%, 0.658);
+  box-shadow: 0px 0px 5px hsl(0, 0%, 10%);
+  border-radius: 2px;
+  width: 100%;
+}
+/* links formatting */
+a {
+  font-weight: normal;
+  text-decoration: none;
+  color: #522a0c;
+}
+a:hover {
+  color: #5e3211d0;
+  text-decoration: none;
+}
+a:active {
+  color: #a15820d0;
+  text-decoration: none;
+}
+li {
+  /* text-decoration: none;
+  list-style: none; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+.coded-by {
+  text-align: center;
+}
