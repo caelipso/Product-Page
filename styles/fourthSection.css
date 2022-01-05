@@ -1,7 +1,9 @@
 /* MEDIA */
 .plato-video {
-  margin-top: 70px;
-  width: 80%;
+  /* display: flex; */
+  margin-left: 0;
+  margin-right: 0;
+  width: 50%;
 }
 
 /* 3 TIERS */
@@ -22,8 +24,8 @@
 }
 
 div div ul li {
-  list-style: none;
-  padding: 10px 2px;
+  /* list-style: none; */
+  /* padding: 10px 2px; */
 }
 .more-info {
   margin-top: 50px;

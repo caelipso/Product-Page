@@ -3,7 +3,6 @@
 /* >>>>> container format + color  <<<<<  */
 .container {
   margin: 0px 2rem;
-  
 }
 .summary-title {
   text-align: center;
@@ -11,22 +10,25 @@
 }
 
 /* >>>>> features formating + positioning  <<<<<  */
-.grid {
+/* .grid {
   display: grid;
-  grid-template-columns: 60px 800px;
-  grid-template-rows: repeat(5, 50px, 1fr);
-  grid-gap: 20px;
+  grid-template-columns: 0.5rem 30rem;
+  grid-template-rows: repeat(5, 2rem, 1fr);
+  grid-gap: 1rem;
   text-align: justify;
   font-size: large;
   line-height: 1em;
   align-items: center;
-}
+  margin: 0 auto;
+  max-width: 80rem;
+} 
 @media (min-width: 500px) {
   .grid {
-    grid-template-columns: repeat(2, 1fr 2fr);
+    grid-template-columns: repeat(2, 1fr);
   }
-}
+} */
 /* >>>>> img formatting  <<<<<  */
 div img {
-  width: 50px;
+  width: 3rem;
+  height: auto;
 }
