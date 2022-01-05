@@ -2,7 +2,8 @@
 
 /* >>>>> container format + color  <<<<<  */
 .container {
-  margin: 0px 300px;
+  margin: 0px 2rem;
+  
 }
 .summary-title {
   text-align: center;
@@ -17,12 +18,12 @@
   grid-gap: 20px;
   text-align: justify;
   font-size: large;
-  line-height: 25px;
+  line-height: 1em;
   align-items: center;
 }
-@media (min-width: 600px) {
+@media (min-width: 500px) {
   .grid {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr 2fr);
   }
 }
 /* >>>>> img formatting  <<<<<  */

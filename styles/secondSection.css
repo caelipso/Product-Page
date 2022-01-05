@@ -2,13 +2,14 @@
 
 /* >>>>> center + position .subscrib <<<<<  */
 .subscrib {
-  margin: 100px 0;
+  margin: 200px 0;
   text-align: center;
 }
 
 /* >>>>> email+sub btn format + color inputs <<<<<  */
 #email,
 #submit {
+  margin-bottom: 2em;
   border-radius: 2px;
   padding: 10px;
   border: none;
