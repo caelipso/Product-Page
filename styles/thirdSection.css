@@ -2,7 +2,7 @@
 
 /* >>>>> container format + color  <<<<<  */
 .container {
-  margin: 0px 2rem;
+  margin: 0px 5rem;
 }
 .summary-title {
   text-align: center;
@@ -10,23 +10,17 @@
 }
 
 /* >>>>> features formating + positioning  <<<<<  */
-/* .grid {
+.grid {
   display: grid;
-  grid-template-columns: 0.5rem 30rem;
+  grid-template-columns: 30px repeat(1, 1fr);
   grid-template-rows: repeat(5, 2rem, 1fr);
-  grid-gap: 1rem;
+  grid-gap: 30px;
   text-align: justify;
   font-size: large;
-  line-height: 1em;
+  line-height: 25px;
   align-items: center;
-  margin: 0 auto;
   max-width: 80rem;
-} 
-@media (min-width: 500px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-} */
+}
 /* >>>>> img formatting  <<<<<  */
 div img {
   width: 3rem;
